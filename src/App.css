@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 1rem;
+  min-height: 20rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*   ----------   AddItem component    -----------    */
+.addform{
+  width: 100%;
+  display: flex;
+  gap:10px;
+  padding: 0  0.5rem 0.25rem;
+}
+.addForm label{       /* Just make it out of Picture*/
+  position: absolute;
+  left: -99999px;
+}
+.addform input[type='text']{
+  flex-grow: 1;
+  max-width:calc(100% - 50px);
+  min-height: 32px;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+
+/*   ---------   SearchItem Component    -----------    */
+.searchForm{
+  width: 100%;
+  display: flex;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.searchForm label{       /* Just make it out of Picture*/
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm input[type='text']{
+  flex-grow: 1;
+}
+
+ /*   -----------    ToDoList  Component ----------  */
+ul {
+  width: 100%;
+  list-style: none;
+  padding: 0 0.25rem 0.25rem;
+}
+
+.item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.item > input[type="checkbox"]{
+  flex: 0.1;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.item > label{
+  flex: 0.9;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.tasks{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+  
