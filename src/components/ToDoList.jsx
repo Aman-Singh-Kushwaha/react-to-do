@@ -1,7 +1,6 @@
-import AddItem from './AddItem';
-import ItemList from './ItemList';
+ import ItemList from './ItemList';
 
-export default function({list, handleClick, handleDelete}){
+ const ToDoList= ({list, handleClick, handleDelete})=>{
   return( <> 
     {(list.length===0) ? (<p>No Task</p>) : (
         <ItemList
@@ -13,3 +12,5 @@ export default function({list, handleClick, handleDelete}){
     </>
   );
 }
+
+export default ToDoList;
