@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite , json-server -w data/db.json -p 3500 ",
-    "build": "vite build",
+    "build": "vite build, json-server -w data/db.json -p 3500",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
