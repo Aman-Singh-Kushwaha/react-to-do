@@ -1,24 +1,14 @@
 {
-  "list": [
+  "lists": [
     {
-        "id": 1,
-        "title": "Apple",
-        "isDone": false
+      "id": 1,
+      "title": "sample 1",
+      "isDone": false
     },
     {
-        "id": 2,
-        "title": "Banana",
-        "isDone": false
-    },
-    {
-        "id": 3,
-        "title": "Orange",
-        "isDone": false
-    },
-    {
-        "id": 4,
-        "title": "Kiwi",
-        "isDone": false
+      "id": 2,
+      "title": "sample 2",
+      "isDone": false
     }
   ]
 }
