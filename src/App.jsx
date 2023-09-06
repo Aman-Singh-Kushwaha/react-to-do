@@ -10,7 +10,7 @@ import apiRequest from './components/apiRequest';
 // import Navbar from './components/Navbar.jsx'
 
 function App() {
-  const API_URL='http://localhost:3500/lists'
+  const API_URL='https://regal-sunburst-79244c.netlify.app:3500/lists'
 
   const [list, setList]=useState([]);
   const [newItem, setNewItem] = useState('');

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite , json-server -w data/db.json -p 3500 ",
-    "prebuild": "json-server -p 3500 -w data/db.json",
+    "dev": "vite ,npx json-server -w data/db.json -p 3500 ",
+    "prebuild": "npx json-server -p 3500 -w data/db.json",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
